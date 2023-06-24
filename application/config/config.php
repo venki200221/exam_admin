@@ -25,7 +25,7 @@ setlocale(LC_ALL, 'US');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "http://65.1.65.3/ci_exam";
+$config['base_url'] = "http://localhost/ci_exam";
 // $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
 /*
 |--------------------------------------------------------------------------
